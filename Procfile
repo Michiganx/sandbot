@@ -1,1 +1,1 @@
-web: bundle exec ruby sandbot.rb -p $PORT
+worker: bundle exec ruby sandbot.rb -p $PORT
