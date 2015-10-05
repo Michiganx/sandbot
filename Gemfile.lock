@@ -29,6 +29,7 @@ GEM
     persistent_httparty (0.1.2)
       httparty (~> 0.9)
       persistent_http (< 2)
+    puma (2.14.0)
     telegram-bot-ruby (0.3.8)
       httmultiparty
       persistent_httparty
@@ -44,4 +45,5 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  puma
   telegram-bot-ruby

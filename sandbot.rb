@@ -2,7 +2,6 @@ require 'telegram/bot'
 token = '122759712:AAE3A0xPzCS-vQBjltV_e0GOGotfn7rDZ1k'
 Telegram::Bot::Client.run(token) do |bot|
   bot.listen do |message|
-    puts message.text.to_s.upcase
     case message.text
       when '/start'
         bot.api.sendMessage(chat_id: message.chat.id, text: "Darude - #{message.from.first_name}storm")
